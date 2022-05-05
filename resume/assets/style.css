@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Header Section */
+
+.header h1{
+    font-weight: 100;
+    margin-left:70px;
+    font-size:44px;
+}
+
+.header span{
+    font-weight: 900;
+}
+
+hr{
+    margin-left:72px;
+    width:58%;
+    height:4px;
+    background-color:black;
+}
+
+.header p{
+    margin-top:5px;
+    margin-left:72px;
+    font-size:17px;
+}
+
+/* Summary Section */
+
+.summary{
+    margin-top: 15px;
+    margin-left:72px;
+    width:720px;
+}
+
+.summary p{
+    margin-top:5px;
+}
+
+/* Highlights Section */
+
+.highlights{
+    margin-top: 15px;
+    margin-left:72px;
+}
+
+.whole{
+    display: flex;
+}
+
+.first{
+    margin-left:200px;
+}
+.second{
+    margin-left:150px;
+}
+
+.second ul li{
+    width:260px;
+}
+
+/* Experience Section */
+
+.experience{
+    display: inline-block;
+}
+
+.experience h5{
+    margin-top: 5px;
+    margin-left:72px;
+}
+
+.projectManager, .intern{
+    display:flex;
+}
+
+.duration{
+    margin-top: 15px;
+    margin-left:70px;
+    width:300px;
+}
+
+.info{
+    margin-top:11px;
+    margin-left: -150px;
+}
+
+.info h5{
+    font-size:18px;
+}
+
+.info span{
+    font-weight:100;
+}
+
+.info ul li{
+    margin-left: 103px;
+    width:510px;
+}
+
+/* Education Section */
+
+.education{
+    margin-top: 5px;
+    margin-left:72px;
+}
+
+h5{
+    font-size:21px;
+}
+
+.wholeEdu{
+    display:flex;
+    margin-top:10px;
+}
+
+.text{
+    margin-left:185px;
+}
+
+.text span{
+    font-weight:bold;
+}
+
+/* Additional Information Section */
+
+.addInfo{
+    margin-top: 14px;
+    margin-left:72px;
+}
+
+.info2{
+    margin-left:250px;
+    margin-top:7px;
+    width:520px;
+}
